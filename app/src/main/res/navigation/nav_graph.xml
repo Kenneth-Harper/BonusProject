@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/reminderList">
+
+    <fragment
+        android:id="@+id/reminderList"
+        android:name="kenharpe.iu.bonusproject.ReminderList"
+        android:label="fragment_reminder_list"
+        tools:layout="@layout/fragment_reminder_list" >
+        <action
+            android:id="@+id/action_reminderList_to_reminderFragment"
+            app:destination="@id/reminderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reminderFragment"
+        android:name="kenharpe.iu.bonusproject.ReminderFragment"
+        android:label="fragment_reminder"
+        tools:layout="@layout/fragment_reminder" >
+        <action
+            android:id="@+id/action_reminderFragment_to_reminderList"
+            app:destination="@id/reminderList" />
+    </fragment>
+</navigation>

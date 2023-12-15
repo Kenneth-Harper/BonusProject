@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bonus Project</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="new_reminder">New Reminder</string>
+    <string name="toolbar_feedback">Feedback</string>
+    <string name="toolbar_about">About</string>
+    <string name="taskbar_newReminder">New Reminder</string>
+</resources>
